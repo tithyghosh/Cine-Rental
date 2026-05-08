@@ -2,6 +2,7 @@ import React from 'react'
 import { getImgUrl } from '../Utilities/cineUtility'
 import Star from "../assets/star.svg";
 import Tag from "../assets/tag.svg";
+import Rating from '../Components/Rating';
 const MovieCard = ( { movie } ) => {
   return (
     <figure id= { movie.id } className="p-4 border border-black/10 shadow-sm dark:border-white/10 rounded-xl">
@@ -12,11 +13,7 @@ const MovieCard = ( { movie } ) => {
                 { movie.genre }
               </p>
               <div className="flex items-center space-x-1 mb-5">
-                <img src = {Star} width="14" height="14" alt="" />
-                <img src = {Star} width="14" height="14" alt="" />
-                <img src={Star} width="14" height="14" alt="" />
-                <img src={Star} width="14" height="14" alt="" />
-                <img src={Star} width="14" height="14" alt="" />
+                <Rating value={movie.rating} />
               </div>
               <a
                 className="bg-[#00d991] rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm"
