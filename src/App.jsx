@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Components/Header'
 import Sidebar from './Components/Sidebar'
+import Movies from './Cine/Movielist'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <main>
         <div className='container grid lg:grid-cols-[218px_1fr] gap-14'>
         <Sidebar />
+        <Movies/>
         </div>
       </main>
     </div>
