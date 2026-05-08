@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.container{
+    text-align: center;
+    padding: 1.25rem;
+}
+.primary{
+    color: #00d991;
+}
