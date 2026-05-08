@@ -11,7 +11,7 @@ const Sidebar = () => {
       <ul className="space-y-2">
         <li>
           <a
-            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-primary text-black"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-[#00D991] text-black"
             href="#"
           >
             <img
