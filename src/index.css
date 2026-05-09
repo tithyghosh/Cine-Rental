@@ -3,3 +3,6 @@
     text-align: center;
     padding: 1.25rem;
 }
+.dark{
+    @apply bg-[#171923] text-white;
+}
